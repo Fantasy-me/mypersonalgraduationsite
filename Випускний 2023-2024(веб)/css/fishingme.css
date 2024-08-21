@@ -1,0 +1,100 @@
+body{
+	background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20240104/pngtree-vibrant-watercolor-background-with-colorful-ink-texture-image_13879744.png);
+    background-size: cover;
+}
+h1{ 
+  color: red;
+  font-family: Bahnschrift;
+  z-index: -2px;
+  font-size: 15vw;
+  text-align: center;
+  animation-name: shake;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake{
+	0%{
+		font-size: 6vw;
+	}
+	50%{
+        font-size: 7vw;
+	}
+	100%{
+		font-size: 6vw;
+	}
+}
+p{
+	color: red;
+  border-radius: 15px;
+  font-family: Bahnschrift;
+	background-color: lime;
+	font-size: 20px;
+	border: dashed 5px red;
+	margin-top: 100px;
+	text-align: center;
+}
+main{
+  background: linear-gradient(45deg, lime, purple, aqua);
+  border-radius: 10px;
+}
+img{
+	margin-left: 25px;
+	width: 350px;
+	height: 200px;
+	margin-top: 25px;
+}
+#awesome{
+	margin-left: 25px;
+	width: 325px;
+	height: 200px;
+	margin-top: 25px;
+}
+/* CSS */
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.button-73:hover {
+  background-color: blue;
+  box-shadow:darkblue 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+a{
+	text-decoration: none;
+  font-family: Bahnschrift;
+}
